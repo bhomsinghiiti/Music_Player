@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color:black;
+    color: white;
+    justify-content: center;
+  
+}
+
+nav ul li {
+    margin: 0 12px;
+    cursor: pointer;
+    
+}
+.logo img {
+    width: 80px;
+    height: 63px;
+    border-radius: 50%;
+    padding: 0 12px;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    margin: 23px auto;
+    padding: 23px;
+    width: 70%;
+   font-family: 'Varela Round', sans-serif;
+    display: flex;
+    background-image: url("/img/2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+    border-radius: 50px;
+  
+
+}
+.musiclist{
+    background-color: black;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    font-family: cursive;
+}
+.musiccover{
+    background-image: url("/img/background.jpg")
+}
+.musiclist h3{
+    font-family:cursive;
+}
+
+.songitemscontainer{
+    margin-top: 70px;
+}
+.songItem{
+    height: 5vw;
+    /* height: 50px; */
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    margin-top: 2px;
+   /* justify-content: space-between;*/
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem span {
+    justify-content:center;
+    line-height: 20px;
+}
+.songItem span .timestamp{
+    line-height: 20px;
+}
+.songItem span i{
+    width: -2px;
+    height: -2px;
+    cursor: pointer;
+}
+.songItem img{
+    /* width: 43px; */
+    width: 3.5vw;
+    height: 3.5vws;
+    margin: 0;
+    border-radius: 50%;
+    padding: 0;
+}
+.songlistplay{
+    /* width: 43px; */
+    width: 3vw;
+    height: 3vws;
+    margin: 0;
+    border-radius: 50%;
+    padding: 0px 2px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    bottom: 0px;
+    height: 130px;
+    background-color: rgb(4, 4, 4);
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.playicons{
+    margin-top: -25px;
+    margin-left: 155px;
+}
+.playicons i{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+#music-range{
+    width: 80vw; 
+    cursor: pointer;
+}
+#musicflow{
+    width: 80px;
+    height: 20px;
+    padding-left: 30px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+   /* display: flex;*/
+    /*flex-direction: column;*/
+}
+#masterSongName{
+    color: wheat;;
+}
+
